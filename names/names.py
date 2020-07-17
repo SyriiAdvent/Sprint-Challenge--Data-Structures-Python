@@ -35,7 +35,7 @@ def linear_search(lst, lst2):
 
 # Improved version
 def binary_search(lst, lst2):
-  bst = BST(t_names_1[0])
+  bst = BST(names_1[0])
   for i in range(len(names_1)):
       if i != 0:
           bst.insert(names_1[i])
@@ -56,3 +56,8 @@ print (f"runtime: {end_time - start_time} seconds")
 # Python has built-in tools that allow for a very efficient approach to this problem
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did not write yourself.
+
+
+# Super easy one :D !!!
+
+# duplicates = set(names_1).intersection(names_2)
